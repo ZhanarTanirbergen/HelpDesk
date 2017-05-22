@@ -1,0 +1,26 @@
+{
+	"name": "Rests - проект, объединивший в себе все самое вкусное",
+	"description": "Rests",
+	"type": "project",
+	"require": {
+		"php": ">=5.5.9",
+		"raveren/kint": "dev-master",
+		"monolog/monolog": "~1.11",
+		"mtdowling/cron-expression": "~1.0",
+		"paragonie/random_compat": "~1.1",
+		"twig/twig":"~1.0",
+        "videlalvaro/php-amqplib": "2.2.*",
+        "microsoft/windowsazure": "^0.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}
